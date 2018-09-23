@@ -16,7 +16,7 @@ function Foot () {
           <div>
             <div className='space-foot hide-on-med-and-down' />
             <ul className='left-align'>
-              <li>Tickets - coming soon!</li>
+              <li>Tickets</li>
               <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><Link className='grey-text text-lighten-3' to='/about'>About</Link></Scrollchor></li>
               <li><Link className='grey-text text-lighten-3' to='/location#venue'>Venue</Link></li>
               <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><Link className='grey-text text-lighten-3' to='/speakers'>Speakers</Link></Scrollchor></li>
