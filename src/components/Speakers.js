@@ -40,6 +40,10 @@ class Speakers extends Component {
                 <h5>Yochay Kiriaty</h5>
                 <p class="title">Principal Program Manager at Microsoft Azure</p>
               </Col>
+              <Col s={12} m={4} l={4} className='center-align top-marg'>
+                <h5>Chase Douglas</h5>
+                <p class="title">CTO at Stackery</p>
+              </Col>
           </Row>
       </div>
     );
