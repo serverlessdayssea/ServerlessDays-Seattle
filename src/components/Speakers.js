@@ -1,21 +1,46 @@
 import React, { Component } from 'react';
+import {Row, Col} from 'react-materialize';
 
 class Speakers extends Component {
-  render () {
+  render() {
     return (
-      <div className='container' id='top'>
-        <div className='container'>
-          <h2 className='center-align'>Speakers coming soon</h2>
-          <h4>Become a speaker!</h4>
-          <p>If you are interested in serverless technology and have a story to tell, we would be very happy to give you the opportunity to speak in front of an audience eager to hear your tales.</p>
-          <p>It doesn't matter if you're just starting out or if you are already an experienced, battle-hardened cloud guru. We want you to speak!</p>
-          <p>We will make ServerlessDays Seattle an inclusive conference welcoming speakers from diverse backgrounds.</p>
-          <div className='center-align'>
-            <a className='btn-large top-marg' href='https://www.papercall.io/https://www.papercall.io/serverless-days-sea' target='_blank' rel='noopener noreferrer'>Submit your proposal</a>
-          </div>
-          <div className='space-foot' />
-          <p>Want to find out who's speaking as soon as they're announced? Sign up for our <a data-target='signupModal' className='modal-trigger'>mailing list</a> to be notified.</p>
-        </div>
+      <div id='top'>
+          <h2 className='center-align'>Speakers</h2>
+          <div className='speakers'></div>
+          <Row>
+              <Col s={12} m={4} l={4} className='center-align top-marg'>
+                <h5>Brian LeRoux</h5>
+                <p class="title">Primary maintainer of arc.codes and wtfjs.com</p>
+              </Col>
+              <Col s={12} m={4} l={4} className='center-align top-marg'>
+                <h5>Ace Nassri</h5>
+                <p class="title">Developer Relations Engineer at Google</p>
+              </Col>
+              <Col s={12} m={4} l={4} className='center-align top-marg'>
+                <h5>Matthew Henderson</h5>
+                <p class="title">Sr Program Manager for Azure Functions</p>
+              </Col>
+          </Row>
+          <Row>
+          <Col s={12} m={4} l={4} className='center-align top-marg'>
+                <h5>Bret McGowen</h5>
+                <p class="title">Developer Advocate for Google Cloud</p>
+              </Col>
+              <Col s={12} m={4} l={4} className='center-align top-marg'>
+                <h5>Josh Carlisle</h5>
+                <p class="title">Cloud solutions developer and advocate</p>
+              </Col>
+              <Col s={12} m={4} l={4} className='center-align top-marg'>
+                <h5>Michael Garski</h5>
+                <p class="title">Director of Platform Engineering at Fender Digital</p>
+              </Col>
+          </Row>
+          <Row>
+              <Col s={12} m={4} l={4} className='center-align top-marg'>
+                <h5>Yochay Kiriaty</h5>
+                <p class="title">Principal Program Manager at Microsoft Azure</p>
+              </Col>
+          </Row>
       </div>
     );
   }
