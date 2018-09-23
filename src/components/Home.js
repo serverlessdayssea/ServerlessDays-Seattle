@@ -4,6 +4,7 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import Map from './Map';
 import Tickets from './Tickets';
 import Speakers from './Speakers';
+import Sponsors from './Sponsors';
 
 class Home extends Component {
   render () {
@@ -15,6 +16,8 @@ class Home extends Component {
           </ScrollableAnchor>
         <Tickets />
           <Speakers />
+
+          <Sponsors />
           
           <Row>
             <Col s={12} m={4} l={4} className='center-align top-marg'>
