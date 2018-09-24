@@ -9,6 +9,20 @@ class Speakers extends Component {
           <div className='speakers'></div>
           <Row>
               <Col s={12} m={4} l={4} className='center-align top-marg'>
+                <h5>Erica Windisch</h5>
+                <p class="title">CTO &amp; Founder @IOpipes</p>
+              </Col>
+              <Col s={12} m={4} l={4} className='center-align top-marg'>
+                <h5>Yochay Kiriaty</h5>
+                <p class="title">Principal Program Manager at Microsoft Azure</p>
+              </Col>
+              <Col s={12} m={4} l={4} className='center-align top-marg'>
+                <h5>Chase Douglas</h5>
+                <p class="title">CTO at Stackery</p>
+              </Col>
+          </Row>
+          <Row>
+              <Col s={12} m={4} l={4} className='center-align top-marg'>
                 <h5>Brian LeRoux</h5>
                 <p class="title">Primary maintainer of arc.codes and wtfjs.com</p>
               </Col>
@@ -33,16 +47,6 @@ class Speakers extends Component {
               <Col s={12} m={4} l={4} className='center-align top-marg'>
                 <h5>Michael Garski</h5>
                 <p class="title">Director of Platform Engineering at Fender Digital</p>
-              </Col>
-          </Row>
-          <Row>
-              <Col s={12} m={4} l={4} className='center-align top-marg'>
-                <h5>Yochay Kiriaty</h5>
-                <p class="title">Principal Program Manager at Microsoft Azure</p>
-              </Col>
-              <Col s={12} m={4} l={4} className='center-align top-marg'>
-                <h5>Chase Douglas</h5>
-                <p class="title">CTO at Stackery</p>
               </Col>
           </Row>
       </div>
