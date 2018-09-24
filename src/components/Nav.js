@@ -39,7 +39,7 @@ class Nav extends Component {
                 <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><NavLink componentclass='span' to='/location' className={this.state.isTop ? 'bold no-bg' : 'purp-text no-bg'}>Location</NavLink></Scrollchor></li>
                 <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><NavLink componentclass='span' to='/speakers' className={this.state.isTop ? 'bold no-bg' : 'purp-text no-bg'}>Speakers</NavLink></Scrollchor></li>
                 <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><NavLink componentclass='span' to='/schedule' className={this.state.isTop ? 'bold no-bg' : 'purp-text no-bg'}>Schedule</NavLink></Scrollchor></li>
-                <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><NavLink componentclass='span' to='/sponsors' className={this.state.isTop ? 'bold no-bg' : 'purp-text no-bg'}>Sponsorships</NavLink></Scrollchor></li>
+                <li><Scrollchor animate={{offset: -100, duration: 500}} to='#top'><NavLink componentclass='span' to='/sponsors' className={this.state.isTop ? 'bold no-bg' : 'purp-text no-bg'}>Sponsors</NavLink></Scrollchor></li>
               </ul>
             </div>
           </nav>
