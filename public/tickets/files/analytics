@@ -1,0 +1,27 @@
+function piResponse() {
+piSetCookie('visitor_id523231', '266285259', 3650);
+piSetCookie('visitor_id523231-hash', '2aca2076b1da3c62fb6f978db447c0c003ac14ae1ff3248e4edc0a0990fc609e1798a3a27c4c3eaa44fcc959b44892e6f2e79343', 3650);
+
+if (document.location.protocol != "https:" || (document.location.protocol == "https:" && true)) {
+var analytics_link = document.location.protocol + "//" + "info.ticketbud.com/analytics?";
+pi.tracker.visitor_id='266285259';
+
+pi.tracker.visitor_id_sign='2aca2076b1da3c62fb6f978db447c0c003ac14ae1ff3248e4edc0a0990fc609e1798a3a27c4c3eaa44fcc959b44892e6f2e79343';
+
+var variables = 'conly=true';
+for (property in pi.tracker) {
+	variables += "&"+property+"="+pi.tracker[property];
+}
+var headID = document.getElementsByTagName("head")[0];
+piScriptObj[piScriptNum] = document.createElement('script');
+piScriptObj[piScriptNum].type = 'text/javascript';
+piScriptObj[piScriptNum].src = analytics_link + variables;
+headID.appendChild(piScriptObj[piScriptNum]);
+piScriptObj[piScriptNum].onload = function() { return; }
+}
+}
+piResponse();
+
+
+
+
