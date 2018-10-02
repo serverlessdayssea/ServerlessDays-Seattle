@@ -13,16 +13,6 @@ class Speakers extends Component {
                 <p class="title">CTO &amp; Founder @IOpipes</p>
               </Col>
               <Col s={12} m={4} l={4} className='center-align top-marg'>
-                <h5>Yochay Kiriaty</h5>
-                <p class="title">Principal Program Manager at Microsoft Azure</p>
-              </Col>
-              <Col s={12} m={4} l={4} className='center-align top-marg'>
-                <h5>Chase Douglas</h5>
-                <p class="title">CTO at Stackery</p>
-              </Col>
-          </Row>
-          <Row>
-              <Col s={12} m={4} l={4} className='center-align top-marg'>
                 <h5>Brian LeRoux</h5>
                 <p class="title">Primary maintainer of arc.codes and wtfjs.com</p>
               </Col>
@@ -30,23 +20,39 @@ class Speakers extends Component {
                 <h5>Ace Nassri</h5>
                 <p class="title">Developer Relations Engineer at Google</p>
               </Col>
-              <Col s={12} m={4} l={4} className='center-align top-marg'>
+          </Row>
+          <Row>
+              <Col s={12} m={6} l={6} className='center-align top-marg'>
+                <h5>Chase Douglas</h5>
+                <p class="title">CTO at Stackery</p>
+              </Col>
+              <Col s={12} m={6} l={6} className='center-align top-marg'>
                 <h5>Matthew Henderson</h5>
                 <p class="title">Sr Program Manager for Azure Functions</p>
               </Col>
           </Row>
           <Row>
-          <Col s={12} m={4} l={4} className='center-align top-marg'>
-                <h5>Ahmet Alp Balkan</h5>
-                <p class="title">Engineer at Google Cloud</p>
-              </Col>
               <Col s={12} m={4} l={4} className='center-align top-marg'>
-                <h5>Josh Carlisle</h5>
-                <p class="title">Engineer at AppDynamics</p>
+                <h5>Belinda Vennam</h5>
+                <p class="title">Developer Advocate at IBM</p>
               </Col>
               <Col s={12} m={4} l={4} className='center-align top-marg'>
                 <h5>Michael Garski</h5>
                 <p class="title">Director of Platform Engineering at Fender Digital</p>
+              </Col>
+              <Col s={12} m={4} l={4} className='center-align top-marg'>
+                  <h5>Ahmet Alp Balkan</h5>
+                <p class="title">Engineer at Google Cloud</p>
+              </Col>
+          </Row>
+          <Row>
+              <Col s={12} m={6} l={6} className='center-align top-marg'>
+                <h5>Yochay Kiriaty</h5>
+                <p class="title">Principal Program Manager at Microsoft Azure</p>
+              </Col>
+              <Col s={12} m={6} l={6} className='center-align top-marg'>
+                <h5>Josh Carlisle</h5>
+                <p class="title">Engineer at AppDynamics</p>
               </Col>
           </Row>
       </div>
