@@ -37,8 +37,8 @@ class Speakers extends Component {
           </Row>
           <Row>
           <Col s={12} m={4} l={4} className='center-align top-marg'>
-                <h5>Bret McGowen</h5>
-                <p class="title">Developer Advocate for Google Cloud</p>
+                <h5>Ahmet Alp Balkan</h5>
+                <p class="title">Engineer at Google Cloud</p>
               </Col>
               <Col s={12} m={4} l={4} className='center-align top-marg'>
                 <h5>Josh Carlisle</h5>
