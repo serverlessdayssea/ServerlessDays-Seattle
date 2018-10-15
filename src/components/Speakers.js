@@ -28,11 +28,13 @@ class Speakers extends Component {
                 <h5>Brian LeRoux</h5>
                 <img style={{ maxWidth: 196 }} src="/media/headshots/BrianLeRoux.jpg" alt="Brian"/>
                 <p class="title">Primary maintainer of arc.codes and wtfjs.com</p>
+                <a href="https://fun.brian.io/" target="_blank">Slides</a>
               </Col>
               <Col s={12} m={4} l={4} className='center-align top-marg'>
                 <h5>Ace Nassri</h5>
                 <img style={{ maxWidth: 196 }} src="/media/headshots/AceNassri.jpg" alt="Ace"/>
                 <p class="title">Developer Relations Engineer at Google</p>
+                <a href="/media/slides/Just Keep Functioning.pdf">Slides</a>
               </Col>
           </Row>
           <Row>
@@ -62,6 +64,7 @@ class Speakers extends Component {
                 <h5>Ahmet Alp Balkan</h5>
                 <img style={{ maxWidth: 196 }} src="/media/headshots/AhmetAlpBalkan.jpeg" alt="Ahmet"/>
                 <p class="title">Engineer at Google Cloud</p>
+                <a href="/media/slides/Kubernetes+Serverless=Knative.pdf">Slides</a>
               </Col>
           </Row>
           <Row>
